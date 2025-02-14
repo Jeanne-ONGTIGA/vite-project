@@ -1,8 +1,9 @@
 import { createRoot } from 'react-dom/client'
-import Capitales from './04/Capitales'
+import TAILW2 from './05/TAILW2'
+import "./index.css"
 
 createRoot(document.getElementById('root')!).render(
-    <Capitales />
+    <TAILW2 />
     
 )
 
