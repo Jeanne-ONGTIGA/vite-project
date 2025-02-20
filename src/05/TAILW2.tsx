@@ -3,7 +3,7 @@ import { BiCommentDetail } from "react-icons/bi";
 import { CiBookmarkCheck } from "react-icons/ci";
 import { FaHeart } from "react-icons/fa";
 import { IoIosHeartEmpty, IoIosSend, IoMdHeart } from "react-icons/io";
-import { LuSendHorizontal } from "react-icons/lu";
+import { LuSend, LuSendHorizontal } from "react-icons/lu";
 
 export default function TAILW2 () {
     const [liked, setLiked] = useState(false);
@@ -23,10 +23,11 @@ export default function TAILW2 () {
                     <IoMdHeart className="text-red-500"/>
                 </button>
                 }
-                <IoIosSend className=""/>
+                <IoIosSend className="relative transform translate-y-2"/>
+                <LuSend className="relative transform translate-y-2" />
                 </div>
-                <div className="flex place-contet-end w-1/2">
-                <CiBookmarkCheck />
+                <div className="flex place-content-end w-1/2">
+                <CiBookmarkCheck className="relative transform translate-y-2" />
                 </div>
             </div>
         </div>
